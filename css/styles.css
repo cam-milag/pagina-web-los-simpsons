@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFD521;
+}
+
+@font-face {
+    font-family: simpsons;
+    src: url(../fonts/Simpsonfont\ DEMO.otf);
+}
+nav{
+    font-family: simpsons;
+}
+
+h5{
+    font-family: simpsons;
+}
+
+.marge:target::before {
+    content: "►";
+    color: blue;
+}
