@@ -41,3 +41,10 @@ nav{
     border-radius: 2rem;
     margin: 10px;
 }
+
+.siguiente:hover {
+    color: #e77e05;
+}
+.anterior:hover {
+    color: #ed390c;
+}
