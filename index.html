@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="assets/dona.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <div class="container">
@@ -15,7 +16,7 @@
         <!--ACA VA NAVBAR-->
             <nav class="navbar navbar-expand-lg bg-body-tertiary"data-bs-theme="dark">
                 <div class="container">
-                <a class="navbar-brand" href=" index.html"> <img src="assets/logo.png" alt="logo Los Simpsons" width="120rem"></a>
+                <a class="navbar-brand" href=" index.html"> <img class="animate__animated animate__zoomIn" src="assets/logo.png" alt="logo Los Simpsons" width="120rem"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -26,11 +27,11 @@
                             Personajes
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#homero">Homero</a></li>
-                                <li><a class="dropdown-item" href="#marge">Marge</a></li>
-                                <li><a class="dropdown-item" href="#bart">Bart</a></li>
-                                <li><a class="dropdown-item" href="#lisa">Lisa</a></li>
-                                <li><a class="dropdown-item" href="#maggie">Maggie</a></li>
+                                <li><a class="dropdown-item animate__animated animate__slideInLeft" href="#homero">Homero</a></li>
+                                <li><a class="dropdown-item animate__animated animate__slideInRight" href="#marge">Marge</a></li>
+                                <li><a class="dropdown-item animate__animated animate__slideInLeft" href="#bart">Bart</a></li>
+                                <li><a class="dropdown-item animate__animated animate__slideInRight" href="#lisa">Lisa</a></li>
+                                <li><a class="dropdown-item animate__animated animate__slideInLeft" href="#maggie">Maggie</a></li>
                             </ul>
                             <li>
                                 <audio controls autoplay="autoplay">
@@ -52,27 +53,27 @@
 
             <div class="row">
                 <div class="p-1 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="assets/familia.png" class="d-block w-100" alt="...">
+                          <div class="carousel-item active">
+                            <img src="assets/familia.png" class="d-block w-100" alt="familia">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/pareja.png" class="d-block w-100" alt="pareja">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/hijos.png" class="d-block w-100" alt="hijos">
+                          </div>
                         </div>
-                        <div class="carousel-item">
-                            <img src="assets/pareja.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/hijos.png" class="d-block w-100" alt="...">
-                        </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
                         </button>
-                    </div>
+                      </div>
                 </div>
             </div>
 
@@ -80,146 +81,152 @@
         <div class="row homero">
             <section class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center align-items-center" href="#homero">
                 <article class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                    <img class="animate__animated animate__bounce" src="assets/homerooo.png" alt="Homero">
+                    <img class="animate__animated animate__backInLeft" src="assets/homerooo.png" alt="Homero">
                 </article>
             </section>
             <aside class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6" id="homero">
-                <div class="position-relative py-2 px-4 text-bg-dark border border-dark rounded-pill fs-3 text">
+                <div class="position-relative py-2 px-4 text-bg-dark border border-dark rounded-pill fs-3 text animate__animated animate__fadeInRightBig">
                     Homero <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1" fill="var(--bs-dark)" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
                   </div>
-                  <iframe class="p-4" width="100%" height="500px" src="https://www.youtube.com/embed/HPeIPK0IBPQ?controls=0&amp;start=33" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <iframe class="animate__animated animate__fadeInTopRight p-4" width="100%" height="500px" src="https://www.youtube.com/embed/HPeIPK0IBPQ?controls=0&amp;start=33" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </aside>
         </div>
         <div class="row homero">
-            <article class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+            <article class="animate__animated animate__bounceInLeft col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                 <h5>Homer Jay Simpson es un personaje ficticio protagonista de la serie de televisión de dibujos animados Los Simpson. Es el padre de la familia protagonista y uno de los personajes centrales más importantes de la serie.</h5>
             </article>
-            <article class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                <h3><a  class="homero" href="#marge">Siguiente personaje</a></h3>
+            <article class="animate__animated animate__bounceInDown col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
                 <h3><a  class="homero" href="#">Anterior personaje</a></h3>
+            </article>
+            <article class="animate__animated animate__bounceInDown col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
+                <h3><a  class="homero" href="#marge">Siguiente personaje</a></h3>
             </article>
         </div>
 
     <!--ACA VA PERSONAJE MARGE-->
         <div class="row">
             <aside class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                <div class="position-relative py-2 px-4 text-bg-dark border border-dark rounded-pill fs-3 text" id="marge">
+                <div class="position-relative py-2 px-4 text-bg-dark border border-dark rounded-pill fs-3 text animate__animated animate__backInLeft" id="marge">
                     Marge <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1" fill="var(--bs-dark)" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
                 </div>
-                <iframe class="p-4" width="100%" height="500px" src="https://www.youtube.com/embed/NPX6Oc9rgbo?controls=0&amp;start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="animate__animated animate__bounceInLeft p-4" width="100%" height="500px" src="https://www.youtube.com/embed/NPX6Oc9rgbo?controls=0&amp;start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </aside>
             <section class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center align-items-center" href="#marge">
-                <article class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                <article class="animate__animated animate__backInRight col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                     <img src="assets/marge.png" alt="Marge" id="marge">
                 </article>
             </section>
         </div>
         <div class="row">
-            <article class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                <button><h3><a  class="marge" href="#bart">Siguiente personaje</a></h3></button>
+            <article class="animate__animated animate__bounceInDown col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
                 <h3><a  class="marge" href="#homero">Anterior personaje</a></h3>
             </article>
-            <article class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+            <article class="animate__animated animate__bounceInDown col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
+                <button><h3><a  class="marge" href="#bart">Siguiente personaje</a></h3></button>
+            </article>
+            <article class="animate__animated animate__fadeInBottomRight col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                 <h5>Es la esposa de Homer Simpson y madre de los tres hijos que ha tenido de este matrimonio: Bart, Lisa y Maggie.</h5>
             </article>
         </div>
-<!--ACA VA PERSONAJE BART-->
+    <!--ACA VA PERSONAJE BART-->
         <div class="row bart">
             <section class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center align-items-center" href="#bart">
-                <article class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                <article class="animate__animated animate__backInLeft col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                     <img src="assets/barttt.png" alt="Bart">
                 </article>
             </section>
             <aside class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6" id="bart">
-                <div class="position-relative py-2 px-4 text-bg-dark border border-dark rounded-pill fs-3 text">
+                <div class="position-relative py-2 px-4 text-bg-dark border border-dark rounded-pill fs-3 text animate__animated animate__fadeInRightBig">
                     Bart <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1" fill="var(--bs-dark)" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
                 </div>
-                <iframe class="p-4" width="100%" height="500px" src="https://www.youtube.com/embed/lhBIijClHpY?controls=0&amp;start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="animate__animated animate__fadeInTopRight p-4" width="100%" height="500px" src="https://www.youtube.com/embed/lhBIijClHpY?controls=0&amp;start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </aside>
         </div>
         <div class="row bart">
-            <article class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+            <article class="animate__animated animate__bounceInLeft col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                 <h5>Bart tiene diez años y es el primogénito y único hijo varón de Homer y Marge Simpson. Es el hermano mayor de Lisa y Maggie.</h5>
             </article>
-            <article class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                <h3><a  class="bart" href="#lisa">Siguiente personaje</a></h3>
+            <article class="animate__animated animate__bounceInDown col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
                 <h3><a  class="bart" href="#marge">Anterior personaje</a></h3>
             </article>
-        </div>
-    <!--ACA VA PERSONAJE LISA-->
-    <div class="row">
-        <aside class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-            <div class="position-relative py-2 px-4 text-bg-dark border border-dark rounded-pill fs-3 text" id="lisa">
-                Lisa <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1" fill="var(--bs-dark)" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
-            </div>
-            <iframe class="p-4" width="100%" height="500px" src="https://www.youtube.com/embed/Mf9OdvANyT4?controls=0&amp;start=17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </aside>
-        <section class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center align-items-center" href="#lisa">
-            <article class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                <img src="assets/lisaa.png" alt="Lisa" id="lisa">
+            <article class="animate__animated animate__bounceInDown col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
+                <h3><a  class="bart" href="#lisa">Siguiente personaje</a></h3>
             </article>
-        </section>
-    </div>
-    <div class="row">
-        <article class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-            <button><h3><a  class="lisa" href="#maggie">Siguiente personaje</a></h3></button>
-            <h3><a  class="lisa" href="#bart">Anterior personaje</a></h3>
-        </article>
-        <article class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-            <h5> Es la hija mediana de Homer y Marge Simpson y hermana de Bart y Maggie. Goza de notable protagonismo y complejidad en la serie.</h5>
-        </article>
-    </div>
+        </div>
+        <!--ACA VA PERSONAJE LISA-->
+        <div class="row">
+            <aside class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                <div class="position-relative py-2 px-4 text-bg-dark border border-dark rounded-pill fs-3 text animate__animated animate__backInLeft" id="lisa">
+                    Lisa <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1" fill="var(--bs-dark)" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
+                </div>
+                <iframe class="animate__animated animate__bounceInLeft p-4" width="100%" height="500px" src="https://www.youtube.com/embed/Mf9OdvANyT4?controls=0&amp;start=17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </aside>
+            <section class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center align-items-center" href="#lisa">
+                <article class="animate__animated animate__backInRight col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                    <img src="assets/lisaa.png" alt="Lisa" id="lisa">
+                </article>
+            </section>
+        </div>
+        <div class="row">
+            <article class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
+                <h3><a  class="lisa" href="#bart">Anterior personaje</a></h3>
+            </article>
+            <article class="animate__animated animate__bounceInDown col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
+                <button><h3><a  class="lisa" href="#maggie">Siguiente personaje</a></h3></button>
+            </article>
+            <article class="animate__animated animate__fadeInBottomRight col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                <h5> Es la hija mediana de Homer y Marge Simpson y hermana de Bart y Maggie. Goza de notable protagonismo y complejidad en la serie.</h5>
+            </article>
+        </div>
         
-<!--ACA VA PERSONAJE MAGGIE-->
+    <!--ACA VA PERSONAJE MAGGIE-->
         <div class="row maggie">
             <section class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center align-items-center" href="#maggie">
-                <article class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                <article class="animate__animated animate__backInLeft col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                     <img src="assets/maggie.png" alt="Maggie">
                 </article>
             </section>
             <aside class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6" id="maggie">
-                <div class="position-relative py-2 px-4 text-bg-dark border border-dark rounded-pill fs-3 text">
+                <div class="position-relative py-2 px-4 text-bg-dark border border-dark rounded-pill fs-3 text animate__animated animate__fadeInRightBig">
                     Maggie <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1" fill="var(--bs-dark)" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
                   </div>
-                  <iframe class="p-4" width="100%" height="500px" src="https://www.youtube.com/embed/k82CzR4CzYg?controls=0&amp;start=97" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <iframe class="animate__animated animate__fadeInTopRight p-4" width="100%" height="500px" src="https://www.youtube.com/embed/k82CzR4CzYg?controls=0&amp;start=97" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </aside>
         </div>
         <div class="row maggie">
-            <article class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+            <article class="animate__animated animate__bounceInLeft col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                 <h5>Es la tercera hija del matrimonio protagonista, Homer y Marge Simpson, y la más joven de ellos. Sus hermanos mayores son Bart y Lisa Simpson.</h5>
             </article>
-            <article class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                <h3><a  class="maggie" href="#">Siguiente personaje</a></h3>
+            <article class="animate__animated animate__bounceInDown col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
                 <h3><a  class="maggie" href="#lisa">Anterior personaje</a></h3>
+            </article>
+            <article class="animate__animated animate__bounceInDown col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
+                <h3><a  class="maggie" href="#">Siguiente personaje</a></h3>
             </article>
         </div>
 
-    </div>
-    <div class="container">
-        <div class="row">
-            <footer class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-center align-items-center">
+            <footer class="row d-flex justify-content-center align-items-center">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                    <img src="assets/logo.png" alt="logo" width="200rem">
-                    <p>All rights reserved</p>
+                    <img class="animate__animated animate__flipInY" src="assets/logo.png" alt="logo" width="200rem">
+                    <p class="animate__animated animate__lightSpeedInLeft">All rights reserved</p>
                 </div>
+
                 <div class=" col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-middle align-items-center">
                     <div>
-                        <a href="https://simpsons.fandom.com/es/wiki/Simpson_Wiki_en_Espa%C3%B1ol:Portada" class="p-4"><img src="assets/logo famdom.webp" alt="logo_famdom" width="50rem"></a>
+                        <a href="https://simpsons.fandom.com/es/wiki/Simpson_Wiki_en_Espa%C3%B1ol:Portada" class="p-4"><img class="animate__animated animate__flipInX" src="assets/logo famdom.webp" alt="logo_famdom" width="50rem"></a>
                     </div>
                     <div>
-                        <a href="https://www.facebook.com/LosSimpson/?locale=es_LA" class="p-4"><img src="assets/facebook-logo-3-1.png" alt="logo_facebook" width="50rem"></a>
+                        <a href="https://www.facebook.com/LosSimpson/?locale=es_LA" class="p-4"><img class="animate__animated animate__flipInX" src="assets/facebook-logo-3-1.png" alt="logo_facebook" width="50rem"></a>
                     </div>
                     <div>
-                        <a href="https://twitter.com/TodoLosSimpson" class="p-4"><img src="assets/twitter-logo-9.png" alt="logo_twitter" width="50rem"></a>
+                        <a href="https://twitter.com/TodoLosSimpson" class="p-4"><img class="animate__animated animate__flipInX" src="assets/twitter-logo-9.png" alt="logo_twitter" width="50rem"></a>
                     </div>
                     <div>
-                        <a href="https://www.youtube.com/@lossimpsonlatino3849/featured" class="p-4"><img  src="assets/youtube-logo-6-2.png" alt="logo_youtube" width="50rem"></a>
+                        <a href="https://www.youtube.com/@lossimpsonlatino3849/featured" class="p-4"><img class="animate__animated animate__flipInX" src="assets/youtube-logo-6-2.png" alt="logo_youtube" width="50rem"></a>
                     </div>
-                    
                 </div>
-            </footer>   
-            <script src="js/bootstrap.bundle.min.js"></script>
-        </div>
+            </footer>        
+        <script src="js/bootstrap.bundle.min.js"></script>
     </div>
 </body>
 
